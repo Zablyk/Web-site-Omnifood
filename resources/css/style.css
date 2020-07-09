@@ -108,6 +108,20 @@ h2:after {
     margin-bottom: 10px;
 }
 
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+    
+    /* secret to align text and icons */ 
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+} 
+
 /* ----- BUTTONS ----- */
 .btn:link,
 .btn:visited {
@@ -255,6 +269,10 @@ header {
 /* HOW IT WORKS */
 /* ----------------------------------------------------------------------------- */
 
+.section-steps {
+    background-color: #f4f4f4;
+}
+
 .steps-box:first-child {
     text-align: right;
     padding-right: 3%;
@@ -296,4 +314,19 @@ header {
     height: 50px;
     width: auto;
     margin-right: 10px;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* CITIES */
+/* ----------------------------------------------------------------------------- */
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    
+}
+
+.city-features {
+    margin-bottom: 5px;
 }
