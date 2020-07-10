@@ -370,6 +370,18 @@ blockquote {
     padding: 2%;
     font-style: italic;
     line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -3px;
 }
 
 cite {
@@ -377,6 +389,7 @@ cite {
     margin-top: 25px;
     display: block;
 }
+
 
 cite img {
     height: 50px;
