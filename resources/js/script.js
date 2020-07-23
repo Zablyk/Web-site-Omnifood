@@ -38,5 +38,12 @@ $(document).ready(function() {
       });
     });
     
+    /* Animations scroll */
+    $('.js--wp-1').waypoint(function(direction) {
+        $('.js--wp-1').addClass('animated fadeIn');
+    }, {
+        offset: '50%'
+    })
+    
 
 });
